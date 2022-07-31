@@ -18,7 +18,7 @@ function App() {
       <TextField
       sx={{ m: 2 }}
       value={search}
-      label="Search Here..."
+      label="Search Authors Here..."
       variant="filled"
       size="medium"
       onChange={(e) =>setSearch(e.target.value)}
