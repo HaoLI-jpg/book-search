@@ -73,7 +73,7 @@ function App() {
   );
 
   function searchAuthor() {
-    console.log(search);
+    setData("");
 
     if (searchAuthor === undefined) {
       return;
