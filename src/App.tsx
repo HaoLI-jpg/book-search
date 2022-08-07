@@ -53,7 +53,7 @@ function App() {
           </Typography>
           {data.docs.map((e: any) => {
             return (
-              <Grid container columnSpacing="30px">
+              <Grid container columnSpacing="30px" border="1px solid black" m="1%" p="1%" borderRadius="5px">
                 <Grid item>
                   <a
                     href={` https://openlibrary.org${e.key}/${e.title}`}
@@ -75,7 +75,7 @@ function App() {
   function searchAuthor() {
     setData("");
 
-    if (searchAuthor === undefined) {
+    if (search === undefined) {
       return;
     }
 
